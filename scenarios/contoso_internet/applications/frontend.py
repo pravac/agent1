@@ -1,7 +1,7 @@
 import streamlit as st
 import requests, uuid, os
 
-BASE_BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:7000")
+BASE_BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:6000")
 CHAT_URL = f"{BASE_BACKEND_URL}/chat"
 HISTORY_URL = f"{BASE_BACKEND_URL}/history"
 SESSION_RESET_URL = f"{BASE_BACKEND_URL}/reset_session"
